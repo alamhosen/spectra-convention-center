@@ -1,21 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-
-  .price-btn{
-      background-color: #F496D1;
-  }
-
   .featured{
-    transform : scale(1.1, 1.3);
+    transform : scale(1.1, 1.3);    
   }
-  .panda-bd-info{
-    background-color: #90d2df;
-    height: 250px;
-}
+ 
