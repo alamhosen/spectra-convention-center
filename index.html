@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 
-    <title>Spectra Convention Centre</title>
+    <title>Spectra Convention Center</title>
 </head>
 <body>
     <!-- header start -->
@@ -26,7 +26,7 @@
         <section class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                  <a class="navbar-brand fw-bold" href="#">Spectra Convention Centre</a>
+                  <a class="navbar-brand fw-bold" href="#">Spectra Convention Center</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -42,7 +42,7 @@
                         <a class="nav-link" href="#">Contact</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Subscribe</a>
+                        <a class="nav-link" href="#subscribe">Subscribe</a>
                       </li>
                     </ul>
                   </div>
@@ -65,7 +65,7 @@
                     <div class="carousel-caption d-none d-md-block">
                       <h5 class="fs-1 fw-bold">The perfect venue for your next event</h5>
                       <p class="fw-normal">We strive to satisfy the unique needs of each exhibitor at every event, from detailed floor plans to amenities.</p>
-                      <button type="button" class="btn btn-light text-primary fw-bold px-5 py-2">Book Now</button>
+                      <a target="-blank" href="https://denverconvention.com/"><button type="button" class="btn btn-light text-primary fw-bold px-5 py-2">Book Now</button></a>
                     </div>
                   </div>
                   <div class="carousel-item">
@@ -73,7 +73,7 @@
                     <div class="carousel-caption d-none d-md-block">
                       <h5 class="fs-1 fw-bold">Limitlessly Functional and Endlessly Customizable</h5>
                       <p class="fw-normal">Totaling 540,000 square feet of breathtaking spaces Convention Center will give you a limitless pleaser.</p>
-                      <button type="button" class="btn btn-light text-primary fw-bold px-5 py-2">Book Now</button>
+                      <a target="-blank" href="https://denverconvention.com/"><button type="button" class="btn btn-light text-primary fw-bold px-5 py-2">Book Now</button></a>
                     </div>
                   </div>
                   <div class="carousel-item">
@@ -81,7 +81,8 @@
                     <div class="carousel-caption d-none d-md-block">
                       <h5 class="fs-1 fw-bold">In the Heart of Downtown</h5>
                       <p class="fw-normal">Situated in the heart of downtown Convention Center is the perfect location for your next event.</p>
-                      <button type="button" class="btn btn-light text-primary fw-bold px-5 py-2">Book Now</button>
+                      <a target="-blank" href="https://denverconvention.com/"><button type="button" class="btn btn-light text-primary fw-bold px-5 py-2">Book Now</button></a>
+                      
                     </div>
                   </div>
                 </div>
@@ -103,8 +104,8 @@
     <main>
         <!-- pricing table start -->
         <section class="container py-5">
-            <h2>Our package</h2>
-            <div class="row row-cols-1 row-cols-md-4 g-4">
+            <h2 class="text-center mb-5 fs-1">Our package</h2>
+            <div class="row row-cols-1 row-cols-md-4 g-4 py-5">
                 <div class="col">
                   <div class="card h-100 border-0">
                     <div class="card-body">
@@ -189,8 +190,8 @@
         </section>
         <!-- pricing table end -->
         <!-- Questions area start  -->
-        <section class="container py-5">
-          <h2 class="text-center">Frequently Asked Questions</h2>
+        <section class="container pb-5 mt-5">
+          <h2 class="text-center fs-1 mb-5">Frequently Asked Questions</h2>
             <div>
               <div class="container px-4">
                 <div class="row gx-5 d-flex align-items-center">
@@ -247,9 +248,19 @@
             </div>
         </section>
          <!-- Questions area end  -->
+         
+         <!-- toast -->
+         <div class="toast show align-items-center mb-4" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="d-flex">
+            <div class="toast-body">
+            <p>20% off on next booking</p>
+           </div>
+            <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+        </div>
 
          <!-- subscribe section start -->
-      <section class="container panda-bd-info d-flex justify-content-center align-items-center rounded-3 py-5" id="subscribe">
+      <section class="container border border-info d-flex justify-content-center align-items-center rounded-3 py-5" id="subscribe">
         <div>
           <h2>LET'S STAY IN TOUCH</h2>
           <p>Get updates on sales, specials and more</p>
@@ -266,12 +277,13 @@
       <div class="container bg-black py-3 mt-5 px-4">
         <div class="row d-flex align-items-center">
           <div class="col text-white">
-            <p>© 2022 bike. All rights reserved</p>
+            <p>Spectra Convention Center © 2022 All rights reserved</p>
           </div>
           <div class="col text-white">
             <h3>Get the App</h3>
-            <img class="w-25" src="images/apple-app.png" alt="">
-            <img class="w-25" src="images/google-app.png" alt="">
+            <a href="https://apps.apple.com/us/app/lingodeer-language-learning/id1261193709"><img class="w-25" src="images/apple-app.png" alt="apple app store"></a>
+            <br>
+            <a href="https://play.google.com/store/apps/details?id=com.google.android.youtube"><img class="w-25" src="images/google-app.png" alt="google play store"></a>
           </div>
         </div>
       </div>
