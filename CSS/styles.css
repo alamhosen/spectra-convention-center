@@ -7,3 +7,11 @@ img {
     max-width: 100%;
     height: auto;
   }
+
+  .price-btn{
+      background-color: #F496D1;
+  }
+
+  .featured{
+    transform : scale(1.1, 1.3);
+  }
